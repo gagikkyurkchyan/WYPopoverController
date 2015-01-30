@@ -56,16 +56,16 @@ namespace WYPopover {
 		void EndThemeUpdates ();
 
 		[Export ("presentPopoverFromRect:inView:permittedArrowDirections:animated:options:")]
-		void PresentPopoverFromRect (RectangleF rect, UIView view, WYPopoverArrowDirection arrowDirections, bool animated, WYPopoverAnimationOptions options);
+		void PresentPopoverFromRect (CGRect rect, UIView view, WYPopoverArrowDirection arrowDirections, bool animated, WYPopoverAnimationOptions options);
 
 //		[Export ("presentPopoverFromRect:inView:permittedArrowDirections:animated:")]
-//		void PresentPopoverFromRect (RectangleF rect, UIView view, WYPopoverArrowDirection arrowDirections, bool animated);
+//		void PresentPopoverFromRect (CGRect rect, UIView view, WYPopoverArrowDirection arrowDirections, bool animated);
 //
 //		[Export ("presentPopoverFromRect:inView:permittedArrowDirections:animated:completion:")]
-//		void PresentPopoverFromRect (RectangleF rect, UIView view, WYPopoverArrowDirection arrowDirections, bool animated, Action completion);
+//		void PresentPopoverFromRect (CGRect rect, UIView view, WYPopoverArrowDirection arrowDirections, bool animated, Action completion);
 //
 //		[Export ("presentPopoverFromRect:inView:permittedArrowDirections:animated:options:completion:")]
-//		void PresentPopoverFromRect (RectangleF rect, UIView view, WYPopoverArrowDirection arrowDirections, bool animated, WYPopoverAnimationOptions options, Action completion);
+//		void PresentPopoverFromRect (CGRect rect, UIView view, WYPopoverArrowDirection arrowDirections, bool animated, WYPopoverAnimationOptions options, Action completion);
 //
 //		[Export ("presentPopoverFromBarButtonItem:permittedArrowDirections:animated:")]
 //		void PresentPopoverFromBarButtonItem (UIBarButtonItem item, WYPopoverArrowDirection arrowDirections, bool animated);
